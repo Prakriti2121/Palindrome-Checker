@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(21, 21, 87);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  #text-input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  #check-btn {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #check-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+  }
+  
